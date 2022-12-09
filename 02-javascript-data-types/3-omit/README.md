@@ -20,7 +20,7 @@ const fruits = {
  banana: 3
 };
 
-console.log(omit(fruits, 'apple', 'banana')); // Вернет обїект - { orange: 4 }
+console.log(omit(fruits, 'apple', 'banana')); // Вернет объект - { orange: 4 }
 ```
  
 **Подсказка:** Обратите внимание на метод [Object.entries](https://learn.javascript.ru/keys-values-entries) 
